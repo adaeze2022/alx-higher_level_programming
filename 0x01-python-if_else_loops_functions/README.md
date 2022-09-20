@@ -1,1 +1,6 @@
-# Python if else loops
+if True:
+
+    print("Holberton")
+else:
+
+    print("School")
