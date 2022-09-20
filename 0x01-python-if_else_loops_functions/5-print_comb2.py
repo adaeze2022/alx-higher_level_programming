@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for i in range(100):
-    print("{:0>2}".format(i), end=", " if i < 99 else "\n")
+for n in range(100):
+    if n < 99:
+        print("{:02d}".format(n), end=", ")
+    else:
+        print("{:d}".format(n))
+        
