@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# 6-max_integer_test.py
+# Brennan D Baraban <375@holbertonschool.com>
 """Unittests for max_integer([..])."""
 
 import unittest
@@ -44,18 +47,17 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_string(self):
         """Test a string."""
-        string = "ghy"
+        string = "Brennan"
         self.assertEqual(max_integer(string), 'r')
 
     def test_list_of_strings(self):
         """Test a list of strings."""
-        strings = ["ghy", "is", "my", "name"]
+        strings = ["Brennan", "is", "my", "name"]
         self.assertEqual(max_integer(strings), "name")
 
     def test_empty_string(self):
         """Test an empty string."""
         self.assertEqual(max_integer(""), None)
-
 
 if __name__ == '__main__':
     unittest.main()
