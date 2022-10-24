@@ -1,4 +1,1 @@
-# class Base():
-    __nb_instances = 0
-# class User(Base):
-    super().__init__()
+# 0x0A-python-inheritance
