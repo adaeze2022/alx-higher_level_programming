@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-""" Base Geometry """
+# 6-base_geometry.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines a base geometry class BaseGeometry."""
 
 
 class BaseGeometry:
-    """ A class """
+    """Represent base geometry."""
+
     def area(self):
-        """ Calculates Area"""
+        """Not implemented."""
         raise Exception("area() is not implemented")
